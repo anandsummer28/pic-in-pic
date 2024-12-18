@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video PiP Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body { width: 100px; text-align: center; }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1b579b; /* Green */
+            color: white;
+            border: none;
+            border-radius: 80px;
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button:hover {
+            background-color: #45a049; /* Darker green */
+        }
+        .icon {
+            margin-right: 8px; /* Space between icon and text */
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-pip">
+        <i class="fas fa-video icon"></i> Pic-in-Pic
+    </button>
+    <script src="popup.js"></script>
+</body>
+</html>
